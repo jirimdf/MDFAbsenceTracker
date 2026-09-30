@@ -101,7 +101,7 @@ class MainWindow(QMainWindow):
         self.overlay = QWidget(self)
         self.overlay.setGeometry(0, 0, window_width, window_height)
         self.overlay.setStyleSheet("background-color: rgba(0, 0, 0, 50);")
-        self.title_label = QLabel("Lupus Absence", self)
+        self.title_label = QLabel("MDF Absence", self)
         self.title_label.setFont(QFont("Azonix", 23))
         self.title_label.setAlignment(Qt.AlignCenter)
         self.title_label.setStyleSheet("color: #FFFFFF;")
@@ -172,7 +172,7 @@ class MainWindow(QMainWindow):
         container = QWidget()
         container.setLayout(grid_layout)
         self.setCentralWidget(container)
-        self.setWindowTitle("Lupus absence calculator")
+        self.setWindowTitle("MDF absence calculator")
         self.setGeometry(100, 100, window_width, window_height)
 
     def calculate_percent(self):

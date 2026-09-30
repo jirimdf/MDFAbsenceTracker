@@ -1,4 +1,4 @@
-# Lupus Absence Calculator
+# MDF Absence Calculator
 
 A desktop application built with PyQt5 that helps students keep track of school absence. Based on the total number of hours and the hours already missed, it calculates how many more hours you can miss without exceeding the allowed limit.
 
@@ -18,17 +18,17 @@ A desktop application built with PyQt5 that helps students keep track of school 
 ## Installation
 
 ```bash
-git clone https://github.com/jirimdf/LupusAbsenceTracker.git
-cd LupusAbsenceTracker
+git clone https://github.com/jirimdf/MDFAbsenceTracker.git
+cd MDFAbsenceTracker
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-The application files are in the `LupusAbsenceTracker` subfolder, so run it from there:
+The application files are in the `MDFAbsenceTracker` subfolder, so run it from there:
 
 ```bash
-cd LupusAbsenceTracker
+cd MDFAbsenceTracker
 python main.py
 ```
 
